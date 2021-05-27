@@ -26,6 +26,7 @@ import com.squareup.picasso.Picasso
 import com.wpjm.escapeeatingalone.Adapter.FragmentPersonAdapter
 import com.wpjm.escapeeatingalone.Model.FriendsList
 import com.wpjm.escapeeatingalone.Model.PersonModel
+import com.wpjm.escapeeatingalone.Model.PersonProfile
 import com.wpjm.escapeeatingalone.databinding.ActivityAddFriendBinding
 import com.wpjm.escapeeatingalone.databinding.FragmentPersonBinding
 import org.w3c.dom.Document

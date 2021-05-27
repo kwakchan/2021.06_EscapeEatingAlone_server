@@ -49,11 +49,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                         if (document!!.exists()) { // 개인정보가 존재하면
 
                             db.collection("users").document(user!!.getUid()).get()
-                                    .addOnSuccessListener { result ->
-                                        name=result["name"] as String
-                                        imageUrl=result["profileImageUrl"] as String
-                                        binding.naviView.menu.findItem(R.id.profile).setTitle(name)
-                                    }
+                                .addOnSuccessListener { result ->
+                                    name=result["name"] as String
+                                    imageUrl=result["profileImageUrl"] as String
+                                    binding.naviView.menu.findItem(R.id.profile).setTitle(name)
+                                }
                         } else { // 개인정보가 존재하지 않으면
                             gotoActivity(MemberInitActivity::class.java)
                         }
@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
 
         when (item.itemId){
-            R.id.profile -> gotoActivity(MemberInitActivity::class.java)
+            R.id.profile -> gotoActivity(MemberInitModify::class.java)
             R.id.menu -> gotoActivity(MenuActivity::class.java)
             R.id.restaurant -> gotoActivity(MapNaverActivity::class.java)
             R.id.chatting -> gotoActivity(ChatActivity::class.java)

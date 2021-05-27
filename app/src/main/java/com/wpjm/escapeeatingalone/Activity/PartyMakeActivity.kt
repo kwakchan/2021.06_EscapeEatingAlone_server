@@ -100,6 +100,7 @@ class PartyMakeActivity : AppCompatActivity() {
 
                         var intent = Intent(this, MessageActivity::class.java)
                         intent.putExtra("chatroomId", timeStamp)
+                        intent.putExtra("messageTitle", binding.partyMakeEdittextTitle.getText())
                         startActivity(intent)
                     }
                     .addOnFailureListener {

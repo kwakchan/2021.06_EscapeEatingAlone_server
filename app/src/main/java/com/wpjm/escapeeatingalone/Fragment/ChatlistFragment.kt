@@ -21,7 +21,6 @@ class ChatlistFragment : Fragment() {
     private val binding get() = mBinding!!
     private var user = FirebaseAuth.getInstance().currentUser
     private var db = FirebaseFirestore.getInstance()
-
     lateinit var reyclerView: RecyclerView
     private val list = ArrayList<ChatlistModel>()
     private val adapter: FragmentChatlistAdapter = FragmentChatlistAdapter(list)
@@ -60,11 +59,16 @@ class ChatlistFragment : Fragment() {
                                 list.clear()
                                 for (document in documents!!){
                                     val item = ChatlistModel(
-                                            R.drawable.user,
-                                            document["title"] as String,
-                                            document["storeName"] as String,
-                                            document["date"] as String,
-                                            document["chatroomId"] as String
+                                        if(document["storeName"] as String == "친구"){
+                                            R.drawable.user
+                                        } else {
+                                            R.drawable.chatroom3
+                                        }
+                                        ,
+                                        document["title"] as String,
+                                        document["storeName"] as String,
+                                        document["date"] as String,
+                                        document["chatroomId"] as String
                                     )
                                     list.add(item)
                                 }

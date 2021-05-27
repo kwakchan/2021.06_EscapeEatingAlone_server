@@ -13,7 +13,6 @@ import com.wpjm.escapeeatingalone.R
 
 
 class MenuDetailAdapter(val menuDetailList:ArrayList<MenuDetailModel>) :RecyclerView.Adapter<MenuDetailAdapter.CustomViewHolder>(){
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MenuDetailAdapter.CustomViewHolder {
         val view= LayoutInflater.from(parent.context).inflate(R.layout.item_menu_detail,parent,false)
         return CustomViewHolder(view)
@@ -35,7 +34,7 @@ class MenuDetailAdapter(val menuDetailList:ArrayList<MenuDetailModel>) :Recycler
             ContextCompat.startActivity(holder.itemView.context, intent, null)
         }
     }
-    
+
     class CustomViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val logo=itemView.findViewById<ImageView>(R.id.menuDetail_imageView_logo)
         val name=itemView.findViewById<TextView>(R.id.menuDetail_textView_menuName)

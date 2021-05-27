@@ -51,7 +51,7 @@
             tools:layout_editor_absoluteX="91dp"
             tools:layout_editor_absoluteY="217dp" />
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/boardDetail_imageView_profile"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -60,6 +60,8 @@
             android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:civ_border_width="4dp"
+            app:civ_border_color="#FFCCCCCC"
             android:src="@drawable/ic_launcher_background" />
 
         <TextView

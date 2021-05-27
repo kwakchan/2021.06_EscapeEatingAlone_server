@@ -9,15 +9,18 @@
 
     <EditText
         android:id="@+id/partyDetailActivity_edittext_storeName"
-        android:layout_width="121dp"
+        android:layout_width="0dp"
         android:layout_height="34dp"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
         android:layout_marginTop="68dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         android:background="@drawable/rounded_edittext_register_login"
+        android:focusableInTouchMode="false"
         android:hint="가게이름"
         android:outlineAmbientShadowColor="#FFFFFF"
-        android:focusableInTouchMode="false"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.firestore.FirebaseFirestore
 import com.wpjm.escapeeatingalone.Model.PartyModel
 import com.wpjm.escapeeatingalone.R
@@ -47,10 +48,10 @@ class PartyActivity : AppCompatActivity() {
                     adapter.notifyDataSetChanged()
                 }
                 .addOnFailureListener { exception ->
-                    Log.e("X", "$exception")
+                    Log.e("partyActivity", "$exception")
                 }
 
-        binding.partyActivityButtonWrite.setOnClickListener {
+        binding.partyActivityFabCreate.setOnClickListener {
             var intent = Intent(this, PartyMakeActivity::class.java)
             intent.putExtra("storeName", storeName)
             startActivity(intent)
