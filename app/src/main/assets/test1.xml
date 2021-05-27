@@ -1,0 +1,163 @@
+<response>
+  <header>
+    <resultMsg>NORMAL_CODE</resultMsg>
+    <resultCode>00</resultCode>
+  </header>
+  <body>
+    <items>
+      <item>
+        <ovrdDate>null</ovrdDate>
+        <addrJibun>부산광역시 수영구 광안동 89 - 9 1층 </addrJibun>
+        <bsnsSector>일반음식점</bsnsSector>
+        <dataDay>2018-10-22</dataDay>
+        <gugun>수영구</gugun>
+        <bsnsNm>장수장꼬리곰탕</bsnsNm>
+        <tel>051-751-7096</tel>
+        <menu>꼬리곰탕</menu>
+        <addrRoad>부산광역시 수영구 무학로9번길 83, 1층 (광안동)</addrRoad>
+        <bsnsCond>한식</bsnsCond>
+        <lng>129.115435</lng>
+        <lat>35.165531</lat>
+        <specDate>2012-11-27</specDate>
+      </item>
+      <item>
+        <ovrdDate>null</ovrdDate>
+        <addrJibun>부산광역시 수영구 광안동 736 - 3 (1층) </addrJibun>
+        <bsnsSector>일반음식점</bsnsSector>
+        <dataDay>2018-10-22</dataDay>
+        <gugun>수영구</gugun>
+        <bsnsNm>맛나감자탕</bsnsNm>
+        <tel>051-757-5666</tel>
+        <menu>감자탕</menu>
+        <addrRoad>부산광역시 수영구 장대골로 27, 1층 (광안동)</addrRoad>
+        <bsnsCond>탕류(보신용)</bsnsCond>
+        <lng>129.110375</lng>
+        <lat>35.159114</lat>
+        <specDate>2012-11-27</specDate>
+      </item>
+      <item>
+        <ovrdDate>null</ovrdDate>
+        <addrJibun>부산광역시 수영구 민락동 181 - 223 바다마루 4층 </addrJibun>
+        <bsnsSector>일반음식점</bsnsSector>
+        <dataDay>2018-10-22</dataDay>
+        <gugun>수영구</gugun>
+        <bsnsNm>광안리 부산횟집</bsnsNm>
+        <tel>051-753-8881</tel>
+        <menu>생선회</menu>
+        <addrRoad>부산광역시 수영구 민락수변로 29, 4층 (민락동, 바다마루)</addrRoad>
+        <bsnsCond>회집</bsnsCond>
+        <lng>129.124629</lng>
+        <lat>35.153277</lat>
+        <specDate>2011-10-26</specDate>
+      </item>
+      <item>
+        <ovrdDate>null</ovrdDate>
+        <addrJibun>부산광역시 수영구 망미동 444 - 5 1층 </addrJibun>
+        <bsnsSector>일반음식점</bsnsSector>
+        <dataDay>2018-10-22</dataDay>
+        <gugun>수영구</gugun>
+        <bsnsNm>구가네</bsnsNm>
+        <tel>051-755-2100</tel>
+        <menu>한정식</menu>
+        <addrRoad>부산광역시 수영구 망미배산로24번길 2, 1층 (망미동)</addrRoad>
+        <bsnsCond>한식</bsnsCond>
+        <lng>129.105741</lng>
+        <lat>35.17439</lat>
+        <specDate>2011-10-26</specDate>
+      </item>
+      <item>
+        <ovrdDate>null</ovrdDate>
+        <addrJibun>부산광역시 수영구 망미동 202 - 1 2층 </addrJibun>
+        <bsnsSector>일반음식점</bsnsSector>
+        <dataDay>2018-10-22</dataDay>
+        <gugun>수영구</gugun>
+        <bsnsNm>강변한우</bsnsNm>
+        <tel>051-861-4188</tel>
+        <menu>소갈비</menu>
+        <addrRoad>부산광역시 수영구 좌수영로 153, 2층 (망미동)</addrRoad>
+        <bsnsCond>식육(숯불구이)</bsnsCond>
+        <lng>129.117335</lng>
+        <lat>35.177655</lat>
+        <specDate>2010-06-30</specDate>
+      </item>
+      <item>
+        <ovrdDate>null</ovrdDate>
+        <addrJibun>부산광역시 수영구 남천동 11 - 10 (1~2층) </addrJibun>
+        <bsnsSector>일반음식점</bsnsSector>
+        <dataDay>2018-10-22</dataDay>
+        <gugun>수영구</gugun>
+        <bsnsNm>송원일식</bsnsNm>
+        <tel>051-626-6100</tel>
+        <menu>일식코스요리</menu>
+        <addrRoad>부산광역시 수영구 남천동로9번길 41, 1~2층 (남천동)</addrRoad>
+        <bsnsCond>일식</bsnsCond>
+        <lng>129.109645</lng>
+        <lat>35.144131</lat>
+        <specDate>2012-11-27</specDate>
+      </item>
+      <item>
+        <ovrdDate>null</ovrdDate>
+        <addrJibun>부산광역시 수영구 민락동 110 - 83  </addrJibun>
+        <bsnsSector>일반음식점</bsnsSector>
+        <dataDay>2018-10-22</dataDay>
+        <gugun>수영구</gugun>
+        <bsnsNm>향래원</bsnsNm>
+        <tel>051-751-0901</tel>
+        <menu>코스요리</menu>
+        <addrRoad>부산광역시 수영구 민락수변로 127-7, 1~4층 (민락동)</addrRoad>
+        <bsnsCond>중국식</bsnsCond>
+        <lng>129.133966</lng>
+        <lat>35.155452</lat>
+        <specDate>2012-11-27</specDate>
+      </item>
+      <item>
+        <ovrdDate>null</ovrdDate>
+        <addrJibun>부산광역시 수영구 남천동 3 - 58 2층 </addrJibun>
+        <bsnsSector>일반음식점</bsnsSector>
+        <dataDay>2018-10-22</dataDay>
+        <gugun>수영구</gugun>
+        <bsnsNm>다케다야</bsnsNm>
+        <tel>051-611-5711</tel>
+        <menu>우동</menu>
+        <addrRoad>부산광역시 수영구 남천동로108번길 31, 2층 (남천동)</addrRoad>
+        <bsnsCond>일식</bsnsCond>
+        <lng>129.109645</lng>
+        <lat>35.144131</lat>
+        <specDate>2011-10-26</specDate>
+      </item>
+      <item>
+        <ovrdDate>null</ovrdDate>
+        <addrJibun>부산광역시 수영구 민락동 110 - 36 월드비치빌201호(지상2층) </addrJibun>
+        <bsnsSector>일반음식점</bsnsSector>
+        <dataDay>2018-10-22</dataDay>
+        <gugun>수영구</gugun>
+        <bsnsNm>통통장어</bsnsNm>
+        <tel>051-754-9001</tel>
+        <menu>장어구이</menu>
+        <addrRoad>부산광역시 수영구 광안해변로344번길 9-15 (민락동,월드비치빌201호(지상2층))</addrRoad>
+        <bsnsCond>한식</bsnsCond>
+        <lng>129.13152</lng>
+        <lat>35.155565</lat>
+        <specDate>2015-11-02</specDate>
+      </item>
+      <item>
+        <ovrdDate>null</ovrdDate>
+        <addrJibun>부산광역시 수영구 남천동 317 - 2 (1~2층) </addrJibun>
+        <bsnsSector>일반음식점</bsnsSector>
+        <dataDay>2018-10-22</dataDay>
+        <gugun>수영구</gugun>
+        <bsnsNm>헬로쭈꾸미&amp;보쌈</bsnsNm>
+        <tel>051-622-0118</tel>
+        <menu>쭈꾸미, 보쌈</menu>
+        <addrRoad>부산광역시 수영구 황령대로473번길 6, 1~2층 (남천동)</addrRoad>
+        <bsnsCond>한식</bsnsCond>
+        <lng>129.106597</lng>
+        <lat>35.139481</lat>
+        <specDate>2012-11-27</specDate>
+      </item>
+    </items>
+    <numOfRows>10</numOfRows>
+    <pageNo>1</pageNo>
+    <totalCount>669</totalCount>
+  </body>
+</response>
